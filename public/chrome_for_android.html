@@ -40,7 +40,7 @@
         <section id="setup" class="section setup" data-section="setup">
           <h2><a href="#setup">Instructions</a></h2>
           <ol class="bullets-light">
-            <li><span><a href="{{ browser.downloadUrl }}">Download <strong>Chrome Canary</strong></a> on your mobile device.</span></li>
+            <li><span><a href="{{ browser.downloadUrl }}">Download <strong>Chrome Beta</strong></a> on your mobile device.</span></li>
             <li>
               <span>
                 In the URL bar, load <strong><code>chrome://flags</code></strong>, and set these flags to <strong><code>Enabled</code></strong>:
@@ -52,7 +52,7 @@
             </li>
             <li><span>Enjoy WebVR content!</span></li>
           </ol>
-          <p class="note"><strong>Warning:</strong> Until the stability of WebVR improves (soon in upcoming releases), we recommend avoiding the use of WebVR in <a href="https://play.google.com/store/apps/details?id=com.android.chrome">Chrome for Android</a> and <a href="https://play.google.com/store/apps/details?id=com.chrome.canary">Chrome Canary</a>.</p>
+          <p class="note"><strong>Warning:</strong> Until the stability of WebVR improves (soon in upcoming releases), we recommend avoiding the use of WebVR in <a href="https://play.google.com/store/apps/details?id=com.android.chrome">Chrome for Android</a> and <a href="https://play.google.com/store/apps/details?id=com.chrome.beta">Chrome Beta</a>.</p>
           <p id="chrome_origin_trial" class="note note-chrome-origin-trial"><strong>Note for Developers:</strong> For your WebVR site to work by default in release-channel Chrome for Android (without users having to manually enable WebVR from <code>chrome://flags</code>), you must <a href="https://docs.google.com/forms/d/e/1FAIpQLSfO0_ptFl8r8G0UFhT0xhV17eabG-erUWBDiKSRDTqEZ_9ULQ/viewform"><strong>sign up here</strong> to request a token for your site&rsquo;s origin (domain)</a>. <br><br> You will receive an email containing the token within 24 hours; to <a href="https://github.com/jpchase/OriginTrials/blob/gh-pages/developer-guide.md#how-do-i-enable-an-experimental-feature-on-my-origin">enable the WebVR Origin Trial</a> for your site, put the token in a <code>&lt;meta http-equiv=&quot;origin-trial&quot; content=&quot;&hellip;&quot;&gt;</code> tag or as an <code>Origin-Trial</code> HTTP response header. You can <a href="https://docs.google.com/forms/d/e/1FAIpQLSfO0_ptFl8r8G0UFhT0xhV17eabG-erUWBDiKSRDTqEZ_9ULQ/viewform">sign up here</a>, and <a href="#what_is_the_webvr_origin_trial">refer to the FAQ for more details</a>.</p>
           {{ bugs_bar(browser) }}
         </section>
